@@ -47,6 +47,8 @@ Note: 7.0.1.1 adds the following patches to 7.0.1:
 
 * **ghcr.io/inti-cmnb/kicad8_debian:9.0.2_d12** KiCad 9.0.2 on Debian 12 (using bookworm-backports)
 
+Note: The ki8 image currently installs KiCad 9.0.2 due to using bookworm-backports, which only has KiCad 9.x versions available.
+
 ## KiCad 9
 
 * **ghcr.io/inti-cmnb/kicad9_debian:9.0.3_dforky_sid** KiCad 9.0.3 on Debian Sid (unstable)
