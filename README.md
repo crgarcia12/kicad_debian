@@ -6,8 +6,10 @@ The main objetive is to use it as a base for [KiBot (KiCad automation in CI/CD e
 
 The images are uploaded to [Docker Hub](https://hub.docker.com/repository/docker/setsoft/kicad_debian) and
 the GitHub packages [kicad5_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad5_debian),
-[kicad6_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad6_debian) and
-[kicad7_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad7_debian).
+[kicad6_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad6_debian),
+[kicad7_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad7_debian),
+[kicad8_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad8_debian) and
+[kicad9_debian](https://github.com/INTI-CMNB/kicad_debian/pkgs/container/kicad9_debian).
 
 The current tags at GitHub are:
 
@@ -40,6 +42,14 @@ The current tags at GitHub are:
 Note: 7.0.1.1 adds the following patches to 7.0.1:
 - [Load the global fp-lib-table before running the Python DRC](https://gitlab.com/kicad/code/kicad/-/merge_requests/1536)
 - [Adds the missing plot formats to `kicad-cli sch export`](https://gitlab.com/kicad/code/kicad/-/merge_requests/1529)
+
+## KiCad 8
+
+* **ghcr.io/inti-cmnb/kicad8_debian:9.0.2_d12** KiCad 9.0.2 on Debian 12 (using bookworm-backports)
+
+## KiCad 9
+
+* **ghcr.io/inti-cmnb/kicad9_debian:9.0.3_dforky_sid** KiCad 9.0.3 on Debian Sid (unstable)
 
 
 Originally the installations were minimal, but starting with 6.0.11 they contain the KiBot and other plug-in dependencies.
